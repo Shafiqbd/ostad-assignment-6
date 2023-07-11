@@ -13,7 +13,7 @@ export default function Content() {
   }
   return (
     <div>
-       <button onClick={handleButton} className="button">Click Me!</button>
+       <button onClick={handleButton} className="button">Show Content</button>
        <br/>
        <h4>{value}</h4>
        <textarea onChange={handleTextarea} className="textarea" placeholder="Enter your text here..."></textarea>
