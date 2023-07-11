@@ -1,0 +1,46 @@
+
+.main-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header{
+  background-color: gray;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.textarea {
+  display: block;
+  width: 95%; 
+  height: 200px;
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+.footer-wrap{
+  text-align: center;
+}
